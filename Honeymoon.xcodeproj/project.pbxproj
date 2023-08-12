@@ -21,6 +21,8 @@
 		FE949ED82A87DE2500ECFB5C /* CardsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE949ED72A87DE2500ECFB5C /* CardsView.swift */; };
 		FE949EDA2A87DEB700ECFB5C /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE949ED92A87DEB700ECFB5C /* HeaderView.swift */; };
 		FE949EDC2A87DFE400ECFB5C /* FooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE949EDB2A87DFE400ECFB5C /* FooterView.swift */; };
+		FE949EDE2A87E47800ECFB5C /* HeaderComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE949EDD2A87E47800ECFB5C /* HeaderComponent.swift */; };
+		FE949EE02A87E55400ECFB5C /* GuideComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE949EDF2A87E55400ECFB5C /* GuideComponent.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +42,8 @@
 		FE949ED72A87DE2500ECFB5C /* CardsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsView.swift; sourceTree = "<group>"; };
 		FE949ED92A87DEB700ECFB5C /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 		FE949EDB2A87DFE400ECFB5C /* FooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterView.swift; sourceTree = "<group>"; };
+		FE949EDD2A87E47800ECFB5C /* HeaderComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderComponent.swift; sourceTree = "<group>"; };
+		FE949EDF2A87E55400ECFB5C /* GuideComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuideComponent.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +123,8 @@
 			isa = PBXGroup;
 			children = (
 				FE949ED52A87DC7800ECFB5C /* CardComponent.swift */,
+				FE949EDD2A87E47800ECFB5C /* HeaderComponent.swift */,
+				FE949EDF2A87E55400ECFB5C /* GuideComponent.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -223,9 +229,11 @@
 				FE949EDA2A87DEB700ECFB5C /* HeaderView.swift in Sources */,
 				FE949ECB2A87D92800ECFB5C /* SplashScreen.swift in Sources */,
 				FE949EDC2A87DFE400ECFB5C /* FooterView.swift in Sources */,
+				FE949EDE2A87E47800ECFB5C /* HeaderComponent.swift in Sources */,
 				FE949ED82A87DE2500ECFB5C /* CardsView.swift in Sources */,
 				FE949EB72A87D6C500ECFB5C /* ContentView.swift in Sources */,
 				FE949ED32A87DC1200ECFB5C /* HoneymoonData.swift in Sources */,
+				FE949EE02A87E55400ECFB5C /* GuideComponent.swift in Sources */,
 				FE949EB52A87D6C500ECFB5C /* HoneymoonApp.swift in Sources */,
 				FE949ECE2A87D96A00ECFB5C /* Constants.swift in Sources */,
 				FE949ED12A87DBD400ECFB5C /* HoneymoonModel.swift in Sources */,
