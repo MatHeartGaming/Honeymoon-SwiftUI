@@ -29,6 +29,9 @@
 		FE949EDC2A87DFE400ECFB5C /* FooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE949EDB2A87DFE400ECFB5C /* FooterView.swift */; };
 		FE949EDE2A87E47800ECFB5C /* HeaderComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE949EDD2A87E47800ECFB5C /* HeaderComponent.swift */; };
 		FE949EE02A87E55400ECFB5C /* GuideComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE949EDF2A87E55400ECFB5C /* GuideComponent.swift */; };
+		FE98A3A22A8A8F4100CB2D5A /* SymbolModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE98A3A12A8A8F4100CB2D5A /* SymbolModifier.swift */; };
+		FE98A3A52A8A933500CB2D5A /* CardTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE98A3A42A8A933500CB2D5A /* CardTransition.swift */; };
+		FE98A3A82A8A95CC00CB2D5A /* PlaySound.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE98A3A72A8A95CC00CB2D5A /* PlaySound.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,6 +59,9 @@
 		FE949EDB2A87DFE400ECFB5C /* FooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterView.swift; sourceTree = "<group>"; };
 		FE949EDD2A87E47800ECFB5C /* HeaderComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderComponent.swift; sourceTree = "<group>"; };
 		FE949EDF2A87E55400ECFB5C /* GuideComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuideComponent.swift; sourceTree = "<group>"; };
+		FE98A3A12A8A8F4100CB2D5A /* SymbolModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymbolModifier.swift; sourceTree = "<group>"; };
+		FE98A3A42A8A933500CB2D5A /* CardTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardTransition.swift; sourceTree = "<group>"; };
+		FE98A3A72A8A95CC00CB2D5A /* PlaySound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaySound.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +80,7 @@
 			children = (
 				FE3E7D5A2A88E50D00E96094 /* TitleModifier.swift */,
 				FE3E7D5C2A88E5FD00E96094 /* ButtonModifiers.swift */,
+				FE98A3A12A8A8F4100CB2D5A /* SymbolModifier.swift */,
 			);
 			path = Modifiers;
 			sourceTree = "<group>";
@@ -97,6 +104,8 @@
 		FE949EB32A87D6C500ECFB5C /* Honeymoon */ = {
 			isa = PBXGroup;
 			children = (
+				FE98A3A62A8A95C000CB2D5A /* Helper */,
+				FE98A3A32A8A932200CB2D5A /* Extensions */,
 				FE3E7D592A88E4EE00E96094 /* Modifiers */,
 				FE949ED42A87DC2200ECFB5C /* Data */,
 				FE949ECF2A87DBCA00ECFB5C /* Model */,
@@ -179,6 +188,22 @@
 			path = Data;
 			sourceTree = "<group>";
 		};
+		FE98A3A32A8A932200CB2D5A /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				FE98A3A42A8A933500CB2D5A /* CardTransition.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		FE98A3A62A8A95C000CB2D5A /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				FE98A3A72A8A95CC00CB2D5A /* PlaySound.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -252,9 +277,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				FE949ED62A87DC7800ECFB5C /* CardComponent.swift in Sources */,
+				FE98A3A82A8A95CC00CB2D5A /* PlaySound.swift in Sources */,
 				FE949EDA2A87DEB700ECFB5C /* HeaderView.swift in Sources */,
 				FE949ECB2A87D92800ECFB5C /* SplashScreen.swift in Sources */,
 				FE3E7D5B2A88E50D00E96094 /* TitleModifier.swift in Sources */,
+				FE98A3A52A8A933500CB2D5A /* CardTransition.swift in Sources */,
 				FE949EDC2A87DFE400ECFB5C /* FooterView.swift in Sources */,
 				FE949EDE2A87E47800ECFB5C /* HeaderComponent.swift in Sources */,
 				FE3E7D562A88DECA00E96094 /* GuideView.swift in Sources */,
@@ -266,6 +293,7 @@
 				FE949EE02A87E55400ECFB5C /* GuideComponent.swift in Sources */,
 				FE949EB52A87D6C500ECFB5C /* HoneymoonApp.swift in Sources */,
 				FE3E7D5F2A88E71600E96094 /* RowAppInfoView.swift in Sources */,
+				FE98A3A22A8A8F4100CB2D5A /* SymbolModifier.swift in Sources */,
 				FE949ECE2A87D96A00ECFB5C /* Constants.swift in Sources */,
 				FE3E7D5D2A88E5FD00E96094 /* ButtonModifiers.swift in Sources */,
 				FE949ED12A87DBD400ECFB5C /* HoneymoonModel.swift in Sources */,

@@ -11,6 +11,7 @@ struct FooterView: View {
     
     //MARK: - PROPERTIES
     @Binding var showBookingAlert : Bool
+    private let haptics = UINotificationFeedbackGenerator()
         
     //MARK: - BODY
     var body: some View {
@@ -23,6 +24,8 @@ struct FooterView: View {
             Button {
                 print("Success!")
                 showBookingAlert.toggle()
+                playSound(sound: "sound-click", type: "mp3")
+                haptics.notificationOccurred(.success)
             } label: {
                 Text("BOOK DESTINATION")
                     .font(.system(.subheadline, design: .rounded))
